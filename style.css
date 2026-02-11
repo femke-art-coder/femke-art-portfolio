@@ -1,0 +1,249 @@
+/* Font-Bibliothek */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Parisienne&family=Playfair+Display:wght@400;600;700&family=Cormorant+Garamond:wght@400;600&family=Marcellus&family=Prata&family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #232222;
+	color: #ffffff;
+	font-family: 'Alice', serif;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+header {
+	background-color: #708d90;
+	padding: 2rem;
+	border-bottom: 2px solid #365d60;
+	width: 100%;
+}
+
+section {
+	max-width: 90%;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow-wrap: break-word;
+	gap: 99px;
+	margin: 2rem auto;
+	max-width: 100%;
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 99px;
+	margin: 2rem auto;
+	max-width: 100%;
+}
+
+
+img {
+	max-width: 37rem;
+	max-height: 37rem;
+	height: auto;
+}
+
+#large {
+	max-width: 70rem;
+	max-height: 70rem;
+	height: auto;
+}
+
+#small {
+	max-width: 25rem;
+	max-height: 25rem;
+	height: auto;
+}
+
+figcaption {
+	max-width: 70rem;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	text-align: center;
+	margin-top: 0.8rem;
+	line-height: 1.4;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 2.5rem;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+header a {
+	color: #ffffff;
+	font-family: 'Alice', serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #a0d2d6;
+}
+
+h1 {
+	background-color: #2a4d50;
+	color: #ffffff;
+	font-family: 'Abril Fatface', serif;
+	font-size: 3rem;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+h2 {
+	color: #d1d1d1;
+	font-family: 'Abril Fatface', serif;
+	font-size: 2.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+h3 {
+	color: #cccccc;
+	font-family: 'Alice', serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+h3.signature {
+	font-family: 'Parisienne', cursive;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: #d1d1d1;
+	text-align: center;
+}
+
+p {
+	font-family: 'Alice', serif;
+	font-size: 1.125rem;
+	margin-bottom: 1.3rem;
+	color: #d1d1d1;
+	max-width: 87rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#aktuelles {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 1200px;
+	text-align: center;
+}
+
+#kontakt {
+	background-color: #888;
+	margin-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		margin: 0;
+		padding: 0 20px;
+		width: 100%;
+		max-height: 100%;
+		float: none;
+		display: block;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	header {
+		display: list-item;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		max-width: 400px;
+		padding: 0;
+	}
+
+	ul {
+		display: list-item;
+		flex-direction: column;
+		list-style: none;
+		align-items: center;
+		width: 100%;
+		max-width: 400px;
+		padding: 0;
+	}
+
+	ul a {
+		font-size: 0.9rem;
+		letter-spacing: 1px;
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	h1 {
+		font-size: 1.6rem;
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 1.4rem;
+		margin-top: 20px;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+		line-height: 1.4;
+	}
+
+	p {
+		font-size: 0.95rem;
+		line-height: 1.4;
+	}
+
+	figcaption {
+		font-size: 0.95rem;
+		line-height: 1.4;
+	}
+
+	.signatur {
+		font-size: 1.8rem;
+	}
+
+	.aktuelles {
+		margin: 20px auto;
+		width: 90%;
+		float: none;
+	}
+}
