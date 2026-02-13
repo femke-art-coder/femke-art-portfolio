@@ -20,6 +20,7 @@ header {
 	padding: 2rem;
 	border-bottom: 2px solid #365d60;
 	width: 100%;
+	border-radius: 2rem;
 }
 
 section {
@@ -85,7 +86,7 @@ ul {
 }
 
 a {
-	color: #e6e4e4;
+	color: #639a54;
 	text-decoration: none;
 }
 
@@ -112,6 +113,9 @@ h1 {
 	color: #ffffff;
 	font-family: 'Abril Fatface', serif;
 	font-size: 3rem;
+	border-radius: 1.2rem;
+	padding-left: 100px;
+	padding-right: 100px;
 	margin-bottom: 4rem;
 	text-align: center;
 }
@@ -163,7 +167,8 @@ p {
 }
 
 #kontakt {
-	background-color: #888;
+	background-color: #0b070c;
+	border-radius: 2rem;
 	margin-top: 0;
 }
 
