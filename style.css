@@ -71,6 +71,11 @@ img {
 	height: auto;
 }
 
+#kataloge-item {
+	border-bottom: none;
+	text-decoration: none;
+}
+
 figcaption {
 	max-width: 70rem;
 	overflow-wrap: break-word;
@@ -227,7 +232,7 @@ p {
 		margin-left: 0;
 	}
 
-	a {
+	#kontakt a {
 		border-bottom: 1px solid #ddd;
 	}
 
@@ -273,4 +278,6 @@ p {
 		width: 90%;
 		float: none;
 	}
+
+
 }
