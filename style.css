@@ -7,10 +7,17 @@
 	box-sizing: border-box;
 }
 
-:focus {
-	outline: 3px solid #00ced1;
-	outline-offset: 3px;
+html body *:focus {
+	outline: 5px solid #00ced1 !important;
+	outline-offset: 5px !important;
 }
+
+:focus-visible {
+	outline: 5px solid #00ced1 !important;
+	outline-offset: 5px !important;
+
+}
+
 
 body {
 	background-color: #232222;
@@ -179,6 +186,11 @@ p {
 	background-color: #0b070c;
 	border-radius: 0.2rem;
 	margin-top: 0;
+}
+
+#kontakt a {
+	border-bottom: 0.5px solid #ddd;
+
 }
 
 @media screen and (max-width: 480px) {
