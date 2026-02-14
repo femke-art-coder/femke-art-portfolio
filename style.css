@@ -7,6 +7,11 @@
 	box-sizing: border-box;
 }
 
+:focus {
+	outline: 3px solid #00ced1;
+	outline-offset: 3px;
+}
+
 body {
 	background-color: #232222;
 	color: #ffffff;
@@ -18,9 +23,8 @@ body {
 header {
 	background-color: #708d90;
 	padding: 2rem;
-	border-bottom: 2px solid #365d60;
 	width: 100%;
-	border-radius: 2rem;
+	border-radius: 0.2rem;
 }
 
 section {
@@ -86,12 +90,12 @@ ul {
 }
 
 a {
-	color: #639a54;
+	color: #e7e8e7;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #cccccc;
+	color: #59dac0;
 }
 
 header a {
@@ -112,11 +116,11 @@ h1 {
 	background-color: #2a4d50;
 	color: #ffffff;
 	font-family: 'Abril Fatface', serif;
-	font-size: 3rem;
-	border-radius: 1.2rem;
+	font-size: 4rem;
+	border-radius: 0.2rem;
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-bottom: 4rem;
+	margin-bottom: 6rem;
 	text-align: center;
 }
 
@@ -168,7 +172,7 @@ p {
 
 #kontakt {
 	background-color: #0b070c;
-	border-radius: 2rem;
+	border-radius: 0.2rem;
 	margin-top: 0;
 }
 
@@ -221,6 +225,17 @@ p {
 		list-style: none !important;
 		padding-left: 0;
 		margin-left: 0;
+	}
+
+	a {
+		border-bottom: 1px solid #ddd;
+	}
+
+	a:hover,
+	a:active,
+	a:focus {
+		color: #59dac0;
+		transition: 0.3s;
 	}
 
 	h1 {
