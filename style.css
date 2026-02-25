@@ -160,6 +160,17 @@ p {
 	text-align: center;
 }
 
+#archiv {
+	display: grid;
+	grid-template-columns: 2, 1fr;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 1200px;
+	text-align: center;
+}
+
 #kontakt {
 	background-color: #0b070c;
 	border-radius: 0.2rem;
