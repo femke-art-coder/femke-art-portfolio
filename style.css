@@ -1,5 +1,7 @@
 /* Font-Bibliothek */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Caveat:wght@400..700&family=Parisienne&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cherish&family=Forum&family=Hurricane&family=Karla:ital,wght@0,200..800;1,200..800&family=Nothing+You+Could+Do&family=Scope+One&family=Shadows+Into+Light+Two&family=Text+Me+One&display=swap" rel="stylesheet');
+
 
 * {
 	margin: 0;
@@ -8,9 +10,9 @@
 }
 
 body {
-	background-color: #272829;
+	background-color: #b2b0b4;
 	color: #ffffff;
-	font-family: 'Alice', serif;
+	font-family: 'Hurricane', serif;
 	font-size: 1rem;
 	line-height: 1.6;
 }
@@ -37,7 +39,7 @@ header {
 }
 
 footer {
-	background-color: #0b070c;
+	background-color: #5f5f5f;
 }
 
 .grid-container figure {
@@ -64,7 +66,8 @@ footer {
 }
 
 .grid-container figure figcaption {
-	font-family: 'Alice', serif;
+	font-family: 'Shadows Into Light Two', serif;
+	color: #1a1a1a;
 	text-align: center;
 	margin-top: 15px;
 }
@@ -79,7 +82,7 @@ ul {
 }
 
 a {
-	color: #e7e8e7;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -89,7 +92,7 @@ a:hover {
 
 header a {
 	color: #ffffff;
-	font-family: 'Alice', serif;
+	font-family: 'Scope One', serif;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -106,7 +109,7 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	color: #ffffff;
-	font-family: 'Abril Fatface', serif;
+	font-family: 'Hurricane', sans-serif;
 	font-size: 4rem;
 	border-radius: 0.2rem;
 	padding-left: 77px;
@@ -115,43 +118,39 @@ h1 {
 	padding-bottom: 33px;
 	margin-bottom: 5rem;
 	text-align: center;
+	letter-spacing: 13px;
 }
 
 h2 {
-	color: #d1d1d1;
-	font-family: 'Abril Fatface', serif;
-	font-size: 2rem;
+	color: #5f5f5f;
+	font-family: 'Scope One', serif;
+	font-size: 1.8rem;
 	margin-top: 3rem;
 	margin-bottom: 1.5rem;
 	text-align: center;
+	letter-spacing: 5px;
 }
 
 h3 {
-	color: #cccccc;
-	font-family: 'Shadows Into Light', cursive;
-	letter-spacing: 1px;
+	color: #ffffff;
+	font-family: 'Shadows Into Light Two', serif;
+	letter-spacing: 3px;
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 	text-align: center;
 }
 
-h3.signature {
-	font-family: 'Parisienne', cursive;
-	font-size: 2rem;
-	margin-bottom: 2rem;
-	color: #d1d1d1;
-	text-align: center;
-}
 
 p {
-	font-family: 'Alice', serif;
-	font-size: 1.1rem;
+	font-family: 'Scope One', sans-serif;
+	font-size: 1rem;
 	margin-bottom: 1.3rem;
-	color: #d1d1d1;
+	color: #1a1a1a;
 	max-width: 87rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	letter-spacing: 1px;
 }
 
 #aktuelles {
@@ -176,7 +175,7 @@ p {
 }
 
 #kontakt {
-	background-color: #0b070c;
+	background-color: #828182;
 	border-radius: 0.2rem;
 	margin-top: 0;
 }
