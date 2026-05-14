@@ -21,3 +21,4 @@ Erfolge & Ausstellungen: Dokumentation meiner Auszeichnung mit der Verdiensturku
 
 ## Reflexion & Zielsetzung:
 Dieses Projekt beweist meine Fähigkeit, mir komplexe neue Technologien in kürzester Zeit zu erschließen und dabei industrielle Standards wie Barrierefreiheit von Anfang an mitzudenken. Es bildet das technische Fundament für meinen angestrebten Einstieg in die Informatikbranche.  
+## Status: abgeschlossen 
